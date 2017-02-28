@@ -1,4 +1,4 @@
-FROM node:4.4.2
+FROM node:6
 WORKDIR /src
 ADD . /src
 RUN cd /src \
